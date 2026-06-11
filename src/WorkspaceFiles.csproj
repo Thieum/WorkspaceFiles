@@ -135,9 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Community.VisualStudio.VSCT" PrivateAssets="all" />
-    <PackageReference Include="Community.VisualStudio.Toolkit.17" ExcludeAssets="Runtime">
-      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="Community.VisualStudio.Toolkit.17"/>
     <PackageReference Include="MAB.DotIgnore" />
     <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
